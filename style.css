@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'reddit+sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body{
+    background-color: black;
+}
+
+.photo{
+    background-image: url(assests/image/bg1.jpg), linear-gradient(0deg, transparent 75%, rgba(0, 0, 0, 1) 115%);
+    background-blend-mode: multiply;
+    background-clip: padding-box;
+    display: inline-block;
+    /* height: 789px; */
+    width: 100vw;
+}
+
+.box{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    height: 789px;
+    width: 100vw;
+}
+
+.abox{
+    z-index: 1;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 78px;
+    margin: auto;
+    width: 75vw;
+    align-items: center;
+    padding: 0px 30px;
+}   
+
+.logo{
+    height: 34px;
+}
+
+.sbutton{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.redb{
+    background-color: red;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.transt{
+    border: 0.5px solid rgba(157, 144, 144, 0.441);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 100px;
+    background-color: rgba(48, 45, 41, 0.756);
+}
+
+.language img{
+    color: white;
+}
+
+#language{
+    background-color: transparent;
+    border: none;
+}
+
+.faltu{
+    height: 432px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+.faltu1{
+    width: 50vw;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.faltu2, .faltu3{
+    width: 50vw;
+    font-weight: 200;
+    padding: auto;
+    text-align: center;
+}
+
+.sign{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.email{
+    color: white !important;
+    width: 350px;
+}
+
+.gs{
+    width: 200px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gs, .email{
+    height: 50px;
+}
+
+.sepration{
+
+        width: 100vw; 
+        height: 60px;  
+        margin-top: 15px;
+        border: solid 3px;
+        border-color: rgb(113, 25, 196) transparent transparent transparent;
+        border-radius: 50%/100px 100px 0 0;
+       /* transform: scale(1.5); */
+        background-image:linear-gradient(#09195b, #000000);
+}
+
+.tn{
+    position: relative !important;
+    color: white;
+    height: 60px;
+    left: 8%;
+    top: 1.3em;
+    width: 92%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.media{
+    height: 400px;
+    z-index: 5;
+}
+
+.select{
+    height: 80px;
+    display: flex;
+
+}
+
+.aselect{
+    display:  flex ;
+    gap: 23px;
+    align-items: center;
+    margin-left: 130px;
+
+}
+
+.aselect select{
+    width: 130px;
+    height: 40px;
+}
+
+.aselect select:nth-child(1){
+    width: 95px;
+}
+
+.movie{
+    display: flex;
+    gap: 50px;
+    /* padding: 0 100px; */
+    justify-content: center;
+
+}
+
+.m{
+    height: 276px;
+    width: 197px; 
+    border-radius: 12px;
+}
+
+.one{
+    background-image: url(https://occ-0-2610-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABS7dyld569XV52EmvaAs6GzTtMdIQU8Zt9-yGDnn0m6JopAB1BKIVRBbH4T94B-dR-NnG6B4xerGgKWih07ZQpH4Z2jhpOLwKb4JkVLW4q2bhRSiXBnPRDvdElbC47Lc-8G2fHz0Xql-L0_hL4elj5BfmRiaQ-KWorhWm-STZquEl2UOaAMxfuwSMfN_F6Dw5KMVEhIEI42e4jMw663a-YJZTrl-o-j4Q5T6eAUOEN-KPY3hqrIuffWhgXcMH_9KWh4HtzOWVAemc9i5ft5jGrUdjSS9HUJwxC5mhCK1T3L5YxPK4yVQXHaH0VUeja9zGdgj8kjeUbF7muN3zz3X4JE.webp?r=2b9);
+}
+
+.two{
+    background-image: url(https://occ-0-2610-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfP1_7nLpY1Gio3tPeNx-UFsRg9nm5Kt9ebmWADCw9pwg7ey4dVXRbWJ0XBKyvzdLeADC1Ke-cw_DZBbTdgDBGZOWhOlYDgfh1FhpuQu5hAnpXH9zG2XMOfWrn0l81K4qpMJEXIZh8x_z6yMoaea61GZhw3ajO-WAg9FxRBWuXi0svaarVcp2ZnvUBNqwfFx9R6Tgd31HDRHxKeG__aOKMGMDEb-4_uqI3grMZFl41FEazHdhoTIhvESC3af7LkMfgxRig-0OZEpQ7_8gmSbSht9m4TmApDSFikMMKALypeQScwT_aQP-fblNIHrFI3xNoBW1modhb_z9sl9uHHuZ_L5DYrCyo5RJ6gKQk32tZBMfYozIAk.webp?r=ead);
+}
+
+.three{
+    background-image:url(https://occ-0-2610-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABaBblLz4Ol3cXr-uE4Oi-RVCwdAW9f4UjR3sQNq_gBKxIRF0nBM4-IgKIpIih-1tCag-CpAFX-2WA1PGFImjoZgsS69CTtTBGXlNF7Vi1bIqK2AqxTH6rlHucj6to-QWv8EWGapsnXdPsaWmHQtVBLFng-MSzJjBr5o.webp?r=8c7);
+}
+
+.four{
+   background-image: url(https://occ-0-2610-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYIRsM_M3WYLA_KjPZ3b_gumnUsE0SSCNbPGUlnFVUT3vIs906bdPHC_JCpoKQmwRXMJ7zpZTfP7K95fN840aI-hLbVFeTM6qF4Q5f6M8hymquqFFJTlSjTmls8Dk3CmfHjs5zUWSiSmhK7uoPsEr2FdB4s4VGHXcKc.webp?r=a57);
+}
+
+.five{
+    background-image:url(https://occ-0-2610-3646.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcaKrijLQxz_EkAAY5WREodwgUqrjmMH4X52tj4ijlpN_LEOvmVwka9AUuwXfhVBEcyr29i9M6kzUEep5ejP9qk7JEZZeB3YOme9gH5H11qv7yJtJGZldaO6gHcfQKEOqocgO7fcMI6O-xkskLnBWC0imfT9srd_LgJolt3_zCwTbzGapbUtfaVXgKibwOmzJA8d_eceM37JcNjdYlXjBSVMfJpieuqusMa-mvZ5QhlgJi_XgXpu6PQcosl4z3_SHJYRe0Ctj1Y-eSjzW8oxXWfHyXUp75xXaQ5Ak_s83mX59lkTOHOFBcVb.webp?r=787);
+}
+
+.n{
+    color: black;
+    font-size: 100px;
+    font-weight: 700;
+    -webkit-text-stroke: 0.15rem rgb(255, 255, 255);
+    position: relative;
+    top: 160px;
+    right: 30px;
+}
+
+.reason{
+    height: 400px;
+}
+
+.mr{
+    height: 40px;
+    /* border: 2px solid red; */
+    margin-left:10%;
+    align-items: center;
+    display: flex;
+}
+
+.mr div{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mrb{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    
+}
+
+.mrbox{
+    height: 280px;
+    width: 280px;
+    border-radius: 30px;
+    background-image: linear-gradient(135deg, #060c23 50%, #ae0e6e 200% );
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.mrboxt div:nth-child(1){
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.mrboxt div:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* .mrboxt div{
+    gap: 12px;
+    text-align: center;
+} */
+
+.mrboxt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    padding-top: 20px ;
+}
+
+.mrbox svg{
+    float: inline-end;
+}
+
+.faq{
+    height: 650px;
+    /* border: 2px solid red; */
+}
+
+.faqc{
+    display: flex;
+    
+}
+
+.faqc div{
+    margin-left: 10%;
+    height: 35px;
+    /* border: 2px solid red; */
+    font-size: 24px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+
+}
+
+.faqb{
+    height: 555px;
+    /* border: 2px solid red; */
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px 0;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.faqbc{
+    box-sizing: border-box;
+    height: 80px;
+    /* border: 2px solid red; */
+    font-size: 24px;
+    font-weight: 500;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #2d2d2d;
+}
+
+.abc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 29px;
+}
+
+.ready{
+    text-align: center;
+}
+
+.kyubhai{
+    width: 40%;
+}
+
+.footer{
+    /* border: 2px solid red; */
+    height: 345px;    
+    margin: 10% 10% 0 10%;
+    /* text-align: end; */
+    justify-content: baseline;
+    justify-content: baseline;
+}
+
+.ques, .links, .atrans, .ni{
+    justify-content: baseline;
+    display: flex;
+    color: #878787;
+}
+
+.ques a, .links ul li a{
+    color: #878787;
+}
+
+.ques{
+    /* border: 2px solid red; */
+    height: 40px; 
+    gap: 7px;
+}
+
+.links{
+    /* border: 2px solid red; */
+    height: 140px;    
+}
+
+.atrans{
+    /* border: 2px solid red; */
+    height: 80px;    
+    /* display: flex; */
+    align-items: center;
+}
+
+.ni{
+    /* border: 2px solid red; */
+    height: 90px;    
+}
+
+.links ul{
+    list-style: none;
+    margin-top: 12px;
+}
+
+.links ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* margin: 6%; */
+    width: 100vw;
+}
+
+.links ul li{
+    /* justify-content: center; */
+    width: 300px;
+    height: 10px;
+}
