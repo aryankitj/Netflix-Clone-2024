@@ -411,3 +411,52 @@ body{
     width: 300px;
     height: 10px;
 }
+
+.m:hover{
+    scale: 1.1;
+    transition: 0.25s ease-in;
+    cursor: pointer;
+}
+
+.faqbc:hover{
+    transition: 0.3s ease-in;
+    background-color: #545959;
+    cursor: pointer;
+    scale: 1.02;
+}
+
+.faqbc{
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.redb:hover{
+    background-color: #9e0909;
+    transition: 0.2s ease-in;
+}
+
+.faltu1{
+    position: relative;
+    top: -450px;
+    transition: top 1s ease-in;
+    animation: color 0.8s ease-in 0.3s;
+}
+
+@keyframes color{
+    from{
+        color: red;
+    }
+    to{
+        color: white;
+    }
+}
+
+
+@keyframes pad{
+    from{
+        
+    }
+}
