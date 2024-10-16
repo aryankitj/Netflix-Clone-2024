@@ -2,7 +2,7 @@
 
 This repository contains the frontend of the Netflix home page, created using HTML and CSS. The project aims to replicate the layout and design of the Netflix home page to showcase web development skills.
 
-## Website Live at: https://aryankitj.github.io/Netflix-Clone/
+## Website Live at: https://aryankitj.github.io/Netflix-Clone-2024/
 
 ## Table of Contents
 - [Features](#features)
