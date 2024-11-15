@@ -12,10 +12,13 @@ This repository contains the frontend of the Netflix home page, created using HT
 - [Screenshots](#screenshots)
 
 ## Features
-- **Responsive Layout**: Adapts to different screen sizes including desktops, tablets, and mobile devices.
 - **Navigation Bar**: A static navigation bar mimicking the Netflix design.
 - **Content Sections**: Sections for featured content, movie thumbnails, and more.
 - **Styling**: CSS styling to replicate Netflix's visual appearance.
+
+## To Do
+- will make me Responsive for All Devices.
+- will change that weird curve (Above Trending)
 
 ## Technologies Used
 - **HTML5**: For creating the structure of the web page.
